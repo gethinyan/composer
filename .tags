@@ -1,0 +1,115 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ClassLoader	vendor/composer/ClassLoader.php	/^class ClassLoader$/;"	c
+ComposerAutoloaderInit51f2a2ddf0b2c1deebb1c3bfacb82624	vendor/composer/autoload_real.php	/^class ComposerAutoloaderInit51f2a2ddf0b2c1deebb1c3bfacb82624$/;"	c
+ComposerStaticInit51f2a2ddf0b2c1deebb1c3bfacb82624	vendor/composer/autoload_static.php	/^class ComposerStaticInit51f2a2ddf0b2c1deebb1c3bfacb82624$/;"	c
+Status	app/Status.php	/^class Status$/;"	c
+__construct	app/Status.php	/^    public function __construct($options = 0)$/;"	f
+add	vendor/composer/ClassLoader.php	/^    public function add($prefix, $paths, $prepend = false)$/;"	f
+addClassMap	vendor/composer/ClassLoader.php	/^    public function addClassMap(array $classMap)$/;"	f
+addPsr4	vendor/composer/ClassLoader.php	/^    public function addPsr4($prefix, $paths, $prepend = false)$/;"	f
+apcuPrefix	vendor/composer/ClassLoader.php	/^        $this->apcuPrefix = function_exists('apcu_fetch') && filter_var(ini_get('apc.enabled'), FILTER_VALIDATE_BOOLEAN) ? $apcuPrefix : null;$/;"	v
+apcuPrefix	vendor/composer/ClassLoader.php	/^    private $apcuPrefix;$/;"	v
+authors	composer.json	/^    "authors": [$/;"	f
+autoload	composer.json	/^    "autoload": {$/;"	f
+baseDir	vendor/composer/autoload_classmap.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	vendor/composer/autoload_namespaces.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	vendor/composer/autoload_psr4.php	/^$baseDir = dirname($vendorDir);$/;"	v
+classMap	vendor/composer/ClassLoader.php	/^            $this->classMap = $classMap;$/;"	v
+classMap	vendor/composer/ClassLoader.php	/^            $this->classMap = array_merge($this->classMap, $classMap);$/;"	v
+classMap	vendor/composer/ClassLoader.php	/^    private $classMap = array();$/;"	v
+classMap	vendor/composer/autoload_real.php	/^            $classMap = require __DIR__ . '\/autoload_classmap.php';$/;"	v
+classMapAuthoritative	vendor/composer/ClassLoader.php	/^        $this->classMapAuthoritative = $classMapAuthoritative;$/;"	v
+classMapAuthoritative	vendor/composer/ClassLoader.php	/^    private $classMapAuthoritative = false;$/;"	v
+does	vendor/composer/ClassLoader.php	/^            \/\/ Remember that this class does not exist.$/;"	c
+email	composer.json	/^            "email": "gethin.yan@gmail.com"$/;"	f
+fallbackDirsPsr0	vendor/composer/ClassLoader.php	/^                $this->fallbackDirsPsr0 = array_merge($/;"	v
+fallbackDirsPsr0	vendor/composer/ClassLoader.php	/^            $this->fallbackDirsPsr0 = (array) $paths;$/;"	v
+fallbackDirsPsr0	vendor/composer/ClassLoader.php	/^    private $fallbackDirsPsr0 = array();$/;"	v
+fallbackDirsPsr4	vendor/composer/ClassLoader.php	/^                $this->fallbackDirsPsr4 = array_merge($/;"	v
+fallbackDirsPsr4	vendor/composer/ClassLoader.php	/^            $this->fallbackDirsPsr4 = (array) $paths;$/;"	v
+fallbackDirsPsr4	vendor/composer/ClassLoader.php	/^    private $fallbackDirsPsr4 = array();$/;"	v
+file	vendor/composer/ClassLoader.php	/^            $file = $this->findFileWithExtension($class, '.hh');$/;"	v
+file	vendor/composer/ClassLoader.php	/^            $file = apcu_fetch($this->apcuPrefix.$class, $hit);$/;"	v
+file	vendor/composer/ClassLoader.php	/^        $file = $this->findFileWithExtension($class, '.php');$/;"	v
+file	vendor/composer/ClassLoader.php	/^        if ($this->useIncludePath && $file = stream_resolve_include_path($logicalPathPsr0)) {$/;"	v
+files	vendor/composer/ClassLoader.php	/^     * Turns on searching the include path for class files.$/;"	c
+findFile	vendor/composer/ClassLoader.php	/^    public function findFile($class)$/;"	f
+findFileWithExtension	vendor/composer/ClassLoader.php	/^    private function findFileWithExtension($class, $ext)$/;"	f
+first	vendor/composer/ClassLoader.php	/^        $first = $class[0];$/;"	v
+first	vendor/composer/ClassLoader.php	/^        $first = $prefix[0];$/;"	v
+getApcuPrefix	vendor/composer/ClassLoader.php	/^    public function getApcuPrefix()$/;"	f
+getClassMap	vendor/composer/ClassLoader.php	/^    public function getClassMap()$/;"	f
+getFallbackDirs	vendor/composer/ClassLoader.php	/^    public function getFallbackDirs()$/;"	f
+getFallbackDirsPsr4	vendor/composer/ClassLoader.php	/^    public function getFallbackDirsPsr4()$/;"	f
+getInitializer	vendor/composer/autoload_static.php	/^    public static function getInitializer(ClassLoader $loader)$/;"	f
+getLoader	vendor/composer/autoload_real.php	/^    public static function getLoader()$/;"	f
+getPrefixes	vendor/composer/ClassLoader.php	/^    public function getPrefixes()$/;"	f
+getPrefixesPsr4	vendor/composer/ClassLoader.php	/^    public function getPrefixesPsr4()$/;"	f
+getStatus	app/Status.php	/^    private static function getStatus($options, $status)$/;"	f
+getUseIncludePath	vendor/composer/ClassLoader.php	/^    public function getUseIncludePath()$/;"	f
+in	vendor/composer/ClassLoader.php	/^ * In this example, if you try to use a class in the Symfony\\Component$/;"	c
+includeFile	vendor/composer/ClassLoader.php	/^function includeFile($file)$/;"	f
+is	vendor/composer/ClassLoader.php	/^     * Finds the path to the file where the class is defined.$/;"	c
+is	vendor/composer/ClassLoader.php	/^ * This class is loosely based on the Symfony UniversalClassLoader.$/;"	c
+isClassMapAuthoritative	vendor/composer/ClassLoader.php	/^    public function isClassMapAuthoritative()$/;"	f
+lastPos	vendor/composer/ClassLoader.php	/^            while (false !== $lastPos = strrpos($subPath, '\\\\')) {$/;"	v
+length	vendor/composer/ClassLoader.php	/^            $length = strlen($prefix);$/;"	v
+loadClass	vendor/composer/ClassLoader.php	/^    public function loadClass($class)$/;"	f
+loadClassLoader	vendor/composer/autoload_real.php	/^    public static function loadClassLoader($class)$/;"	f
+loader	vendor/composer/ClassLoader.php	/^ *     $loader = new \\Composer\\Autoload\\ClassLoader();$/;"	v
+loader	vendor/composer/ClassLoader.php	/^ * ClassLoader implements a PSR-0, PSR-4 and classmap class loader.$/;"	c
+loader	vendor/composer/autoload_real.php	/^        self::$loader = $loader = new \\Composer\\Autoload\\ClassLoader();$/;"	v
+loader	vendor/composer/autoload_real.php	/^    private static $loader;$/;"	v
+logicalPathPsr0	vendor/composer/ClassLoader.php	/^            $logicalPathPsr0 = strtr($class, '_', DIRECTORY_SEPARATOR) . $ext;$/;"	v
+logicalPathPsr0	vendor/composer/ClassLoader.php	/^            $logicalPathPsr0 = substr($logicalPathPsr4, 0, $pos + 1)$/;"	v
+logicalPathPsr4	vendor/composer/ClassLoader.php	/^        $logicalPathPsr4 = strtr($class, '\\\\', DIRECTORY_SEPARATOR) . $ext;$/;"	v
+lookup	vendor/composer/ClassLoader.php	/^     * Should class lookup fail if not found in the current class map?$/;"	c
+map	vendor/composer/ClassLoader.php	/^        \/\/ class map lookup$/;"	c
+map	vendor/composer/ClassLoader.php	/^     * that have not been registered with the class map.$/;"	c
+map	vendor/composer/autoload_real.php	/^            $map = require __DIR__ . '\/autoload_namespaces.php';$/;"	v
+map	vendor/composer/autoload_real.php	/^            $map = require __DIR__ . '\/autoload_psr4.php';$/;"	v
+missingClasses	vendor/composer/ClassLoader.php	/^    private $missingClasses = array();$/;"	v
+name	composer.json	/^            "name": "gethin.yan",$/;"	f
+name	composer.json	/^    "name": "gethin\/composer",$/;"	f
+name	vendor/composer/ClassLoader.php	/^            \/\/ PEAR-like class name$/;"	c
+name	vendor/composer/ClassLoader.php	/^            \/\/ namespaced class name$/;"	c
+namespace	vendor/composer/autoload_real.php	/^            foreach ($map as $namespace => $path) {$/;"	v
+oStatus	index.php	/^$oStatus = new Status(Status::ALL_STATUS_VALID);$/;"	v
+options	app/Status.php	/^        $this->options = $options;$/;"	v
+options	app/Status.php	/^    private $options;$/;"	v
+or	vendor/composer/ClassLoader.php	/^     * Loads the given class or interface.$/;"	c
+pathEnd	vendor/composer/ClassLoader.php	/^                    $pathEnd = DIRECTORY_SEPARATOR . substr($logicalPathPsr4, $lastPos + 1);$/;"	v
+pos	vendor/composer/ClassLoader.php	/^        if (false !== $pos = strrpos($class, '\\\\')) {$/;"	v
+prefix	vendor/composer/ClassLoader.php	/^            foreach ($this->prefixesPsr0[$first] as $prefix => $dirs) {$/;"	v
+prefixDirsPsr4	vendor/composer/ClassLoader.php	/^    private $prefixDirsPsr4 = array();$/;"	v
+prefixDirsPsr4	vendor/composer/autoload_static.php	/^    public static $prefixDirsPsr4 = array ($/;"	v
+prefixLengthsPsr4	vendor/composer/ClassLoader.php	/^    private $prefixLengthsPsr4 = array();$/;"	v
+prefixLengthsPsr4	vendor/composer/autoload_static.php	/^    public static $prefixLengthsPsr4 = array ($/;"	v
+prefixesPsr0	vendor/composer/ClassLoader.php	/^    private $prefixesPsr0 = array();$/;"	v
+prepend	vendor/composer/ClassLoader.php	/^    public function add($prefix, $paths, $prepend = false)$/;"	v
+prepend	vendor/composer/ClassLoader.php	/^    public function addPsr4($prefix, $paths, $prepend = false)$/;"	v
+psr-4	composer.json	/^        "psr-4": {"composer\\\\app\\\\": "composer\/app\/"}$/;"	f
+register	vendor/composer/ClassLoader.php	/^    public function register($prepend = false)$/;"	f
+require	composer.json	/^    "require": {}$/;"	f
+search	vendor/composer/ClassLoader.php	/^                $search = $subPath . '\\\\';$/;"	v
+set	vendor/composer/ClassLoader.php	/^    public function set($prefix, $paths)$/;"	f
+setApcuPrefix	vendor/composer/ClassLoader.php	/^    public function setApcuPrefix($apcuPrefix)$/;"	f
+setClassMapAuthoritative	vendor/composer/ClassLoader.php	/^    public function setClassMapAuthoritative($classMapAuthoritative)$/;"	f
+setPsr4	vendor/composer/ClassLoader.php	/^    public function setPsr4($prefix, $paths)$/;"	f
+setUseIncludePath	vendor/composer/ClassLoader.php	/^    public function setUseIncludePath($useIncludePath)$/;"	f
+showStatus	app/Status.php	/^    public function showStatus()$/;"	f
+subPath	vendor/composer/ClassLoader.php	/^                $subPath = substr($subPath, 0, $lastPos);$/;"	v
+subPath	vendor/composer/ClassLoader.php	/^            $subPath = $class;$/;"	v
+under	vendor/composer/ClassLoader.php	/^ * the autoloader will first look for the class under the component\/$/;"	c
+unregister	vendor/composer/ClassLoader.php	/^    public function unregister()$/;"	f
+useIncludePath	vendor/composer/ClassLoader.php	/^        $this->useIncludePath = $useIncludePath;$/;"	v
+useIncludePath	vendor/composer/ClassLoader.php	/^    private $useIncludePath = false;$/;"	v
+useStaticLoader	vendor/composer/autoload_real.php	/^        $useStaticLoader = PHP_VERSION_ID >= 50600 && !defined('HHVM_VERSION') && (!function_exists('zend_loader_file_encoded') || !zend_loader_file_encoded());$/;"	v
+vendorDir	vendor/composer/autoload_classmap.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	vendor/composer/autoload_namespaces.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	vendor/composer/autoload_psr4.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v

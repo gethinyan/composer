@@ -1,0 +1,13 @@
+{
+    "name": "gethin/composer",
+    "authors": [
+        {
+            "name": "gethin.yan",
+            "email": "gethin.yan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Gethin\\App\\": "app/"}
+    },
+    "require": {}
+}
