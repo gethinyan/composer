@@ -1,13 +1,17 @@
 {
     "name": "gethin/composer",
+    "description": "try make a package",
+    "license": "MIT",
     "authors": [
         {
             "name": "gethin.yan",
             "email": "gethin.yan@gmail.com"
         }
     ],
+    "require": {
+        "php": ">=7.0"
+    },
     "autoload": {
         "psr-4": {"Gethin\\App\\": "app/"}
-    },
-    "require": {}
+    }
 }
