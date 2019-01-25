@@ -25,5 +25,5 @@ require './vendor/autoload.php';
 使用 `use` 关键词引入类
 
 ```php
-use Gethin\App\Status
+use Gethin\App\Status;
 ```
