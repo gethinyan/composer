@@ -1,0 +1,9 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+  - name: install
+    image: composer:1.5.0
+    commands:
+      - composer install
